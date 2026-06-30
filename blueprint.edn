@@ -1,0 +1,10 @@
+{:itonami.blueprint/id "cloud-itonami-4920"
+ :itonami.blueprint/name "Community Freight Transport"
+ :itonami.blueprint/isic-rev5 "4920"
+ :itonami.blueprint/domain :commerce/freight-transport
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:supply-resilience :rural-access :decarbonization]
+ :itonami.blueprint/governor :freight-governor
+ :itonami.blueprint/required-technologies [:logistics :identity :forms :dmn :bpmn :audit-ledger :optimization]
+ :itonami.blueprint/optional-technologies [:telemetry]
+ :itonami.blueprint/status :public-oss}
