@@ -8,6 +8,14 @@ shipment booking, tracking, multi-modal routing, and consignment settlement —
 run by a qualified operator so a local carrier keeps its own shipment and
 proof-of-delivery data instead of renting a closed TMS SaaS.
 
+## Robotics premise
+
+All cloud-itonami verticals are designed on the premise that a **robot performs
+the physical domain work**. Here an autonomous delivery vehicle or last-mile robot performs the physical movement of freight under an actor that proposes
+actions and an independent **Freight Governor** that gates them. The governor never
+dispatches hardware itself; `:high`/`:safety-critical` actions require
+human sign-off.
+
 ## Core Contract
 
 ```text
